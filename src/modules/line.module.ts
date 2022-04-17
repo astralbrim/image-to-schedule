@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { LineService } from '../sercices/line.service';
+import { LineService } from '../services/line.service';
 import { LineController } from '../controllers/line.controller';
 
 @Module({

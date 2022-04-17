@@ -1,5 +1,5 @@
 import { Body, Controller, Inject, Post } from '@nestjs/common';
-import { ApiService } from '../sercices/api.service';
+import { ApiService } from '../services/api.service';
 import {
   Event,
   MessageEventImage,
@@ -7,7 +7,7 @@ import {
   RequestBodyDto,
 } from './RequestBody.dto';
 import { State } from './type/state';
-import { LineService } from '../sercices/line.service';
+import { LineService } from '../services/line.service';
 
 @Controller('/api')
 export class ApiController {

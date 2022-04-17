@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { ApiController } from '../controllers/api.controller';
-import { ApiService } from '../sercices/api.service';
+import { ApiService } from '../services/api.service';
 import { LineModule } from './line.module';
-import { LineService } from '../sercices/line.service';
+import { LineService } from '../services/line.service';
 
 @Module({
   imports: [LineModule],
